@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Static App Building 2</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#home">I-Shine</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="#introduction">About Us</a>
+          <a class="nav-link" href="#categories-section">Courses</a>
+          <a class="nav-link" href="#featured">Books</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Banner -->
+  <section id="home" class="jumbotron text-center text-dark">
+    <div class="container">
+      <h1 class="display-4">Welcome to I-Shine Tutorials </h1>
+      <p class="lead">Your one-stop destination for learning various subjects.</p>
+      <a href="#featured" class="btn btn-dark btn-lg">Explore Resources</a>
+    </div>
+
+  <!-- Intro -->
+
+    <div class="row mt-5 pt-5 text-dark text-center">
+
+      <div class="col-lg-6" id="introduction">
+        <h1 class="text-center">Introduction</h1>
+        <p>I-Shine Tutorials is more than just tutors; we are partners in your educational journey. We are dedicated to providing the support and encouragement you need to succeed. Whether you're preparing for exams, tackling challenging topics, or simply seeking to improve your skills in Science, Math, and English, we are here to help you every step of the way.<br><br>
+
+        Ready to take the next step in your educational journey?<br>
+        Join us today! Let’s unlock your full potential together!</p>  
+      </div>
+
+      <div class="col-lg-6" id="mission">
+        <h1 class="text-center">Mission</h1>
+        <p>Our primary purpose is to assist students in acquiring knowledge and advancing their understanding of vital subjects by improving their skills to be a competent person. </p>  
+      </div>
+      
+    </div>
+
+  </section>
+
+
+
+  <!-- Resource Categories -->
+  <section class="container my-5" id="categories-section">
+    <h2 class="text-center mb-4">Browse by Category</h2>
+    <div class="row">
+
+      <div class="col-md-4">
+        <div class="card mb-4 bg-success">
+          <img src="./Images/scienceLogo.jpg" class="card-img-top" alt="Science">
+          <div class="card-body">
+            <h5 class="card-title">Science</h5>
+            <p class="card-text">Explore resources on physics, chemistry, biology, and more.</p>
+            <a href="#" class="btn btn-light text-dark">View Resources</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card mb-4 bg-danger">
+          <img src="./Images/mathLogo.png" class="card-img-top" alt="Mathematics">
+          <div class="card-body">
+            <h5 class="card-title">Mathematics</h5>
+            <p class="card-text">Find materials on algebra, calculus, geometry, and more.</p>
+            <a href="#" class="btn btn-light text-dark">View Resources</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card mb-4 bg-primary">
+          <img src="./Images/englishLogo.jpg" class="card-img-top" alt="History">
+          <div class="card-body">
+            <h5 class="card-title">English</h5>
+            <p class="card-text">Learn about the 4 fundamentals on learning English: Reading, Writing, Speaking and, Listening</p>
+            <a href="#" class="btn btn-light text-dark">View Resources</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Featured Resources -->
+  <section class="bg-light py-5" id="featured">
+    <div class="container">
+      <h2 class="text-center mb-4">Featured Resources</h2>
+      <div id="featuredCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card mb-4">
+                  <img src="./Images/tomasiBook.jpeg" class="card-img-top" alt="Resource 1">
+                  <div class="card-body">
+                    <h5 class="card-title">Electronic communications systems : fundamentals through advanced</h5>
+                    <p class="card-text">A comprehensive guide on elctromagnetism.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-4">
+                  <img src="./Images/algebTrigoBook.jpg" class="card-img-top" alt="Resource 2">
+                  <div class="card-body">
+                    <h5 class="card-title">Algebra and Trigonometry</h5>
+                    <p class="card-text">Interactive lessons on algebra and trigonometry for beginners.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-4">
+                  <img src="./Images/englishBook.png" class="card-img-top" alt="Resource 3">
+                  <div class="card-body">
+                    <h5 class="card-title">The Elements of Style</h5>
+                    <p class="card-text">A classic guide to writing clearly and concisely.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Add more carousel items here if needed -->
+        </div>
+        <a class="carousel-control-prev" href="#featuredCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#featuredCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+      <p>&copy; 2024 I-Shine Tutorials. All rights reserved.</p>
+      <p>Follow us on 
+        <a href="https://www.facebook.com/" class="text-white">Facebook</a>, 
+        <a href="https://www.x.com/" class="text-white">Twitter</a>, 
+        <a href="https://www.instagram.com/" class="text-white">Instagram</a>.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
