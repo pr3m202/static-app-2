@@ -1,5 +1,5 @@
 .jumbotron{
-	background: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA1L2pvYjE4MDgtcmVtaXgtMDRhLWMuanBn.jpg);
+	background: url(./Images/bgHero.png);
 	font-family: Edu VIC WA NT Beginner;
 	
 }
@@ -9,3 +9,6 @@
 	color: black;
 }
 
+#intro-and-mission{
+	background: url(./Images/bgIntroMission.png);
+}
